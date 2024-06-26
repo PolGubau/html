@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Truita</title>
+  </head>
+  <body>
+    <header class="header-prinicipal">
+      <h1 class="title">Truita de patates</h1>
+
+      <nav class="links">
+        <a href="index.html"> Anar a inici</a>
+        <a href="sobremi.html"> Anar a sobre mi</a>
+      </nav>
+    </header>
+
+    <main class="contingut-principal">
+      <aside class="aside-recepta">
+        <h2>Llista receptes</h2>
+        <ul>
+          <li>
+            <a href="pasta.html">Pasta</a>
+          </li>
+          <li>
+            <a href="sushi.html">Sushi</a>
+          </li>
+          <li>
+            <a href="pasta.html">Pasta</a>
+          </li>
+          <li>
+            <a href="sushi.html">Sushi</a>
+          </li>
+          <li>
+            <a href="pasta.html">Pasta</a>
+          </li>
+          <li>
+            <a href="sushi.html">Sushi</a>
+          </li>
+        </ul>
+      </aside>
+
+      <section class="contingut-truita">
+        <h2>Taula d'ingredients</h2>
+        <table>
+          <tr>
+            <th>Ingredients</th>
+            <th>Unitats</th>
+            <th>Imatge</th>
+          </tr>
+          <tr>
+            <td>Patates</td>
+            <td align="center">5</td>
+            <td>
+              <img
+                height="70px"
+                alt="Patates"
+                src="https://imatges.vilaweb.cat/nacional/wp-content/uploads/2021/05/patates-21113749.jpg"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Ous</td>
+            <td align="center">3</td>
+            <td>
+              <img
+                height="70px"
+                alt="Patates"
+                src="https://imatges.vilaweb.cat/nacional/wp-content/uploads/2021/05/patates-21113749.jpg"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Ceba</td>
+            <td align="center">1</td>
+            <td>
+              <img
+                height="70px"
+                alt="Patates"
+                src="https://imatges.vilaweb.cat/nacional/wp-content/uploads/2021/05/patates-21113749.jpg"
+              />
+            </td>
+          </tr>
+        </table>
+        <h2> Pas a pas </h2>
+        <ul class="llista-pas">
+          <li>
+            <h3>Pas 1</h3>
+            <p
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              facere, aliquid temporibus quaerat aliquam doloremque soluta
+              maiores enim error laboriosam!</p
+            >
+          </li>
+          <li>
+            <h3>Pas 2</h3>
+            <p
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              facere, aliquid temporibus quaerat aliquam doloremque soluta
+              maiores enim error laboriosam!</p
+            >
+          </li>
+          <li>
+            <h3>Pas 3</h3>
+            <p
+              >Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+              placeat deleniti iusto reprehenderit provident eius nostrum optio
+              labore quibusdam quasi?</p
+            >
+          </li>
+        </ul>
+
+        <div>
+          <h2>Comentaris</h2>
+          <form>
+            <div>
+              <label for="comentari-principal">Escriu el teu comentari</label>
+              <input
+                id="comentari-principal"
+                placeholder="M'ha agradat molt per..."
+              />
+            </div>
+            <div>
+              <label for="comentari-nota">Posa una nota</label>
+              <input id="comentari-nota" type="number" min="0" max="10" />
+            </div>
+            <div>
+              <label for="comentari-email">Quin email tens?</label>
+              <input id="comentari-email" type="email" />
+            </div>
+
+            <input type="radio" name="agrada" /> M'agrada
+
+            <input type="radio" name="agrada" /> No m'agrada
+
+            <textarea>Hola</textarea>
+
+            <button>Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">Recepta 1</footer>
+  </body>
+</html>
